@@ -4138,6 +4138,8 @@
       <field type="uint8_t" name="cooler" units="%">Cooler</field>
       <field type="uint8_t" name="starter" units="%">Starter</field>
       <field type="uint8_t" name="throttle" units="%">Throttle</field>
+      <extensions/>
+      <field type="float" name="vsi_temp" units="degC">Inverter temperature</field>
     </message>
     <message id="241" name="VIBRATION">
       <description>Vibration levels and accelerometer clipping</description>
